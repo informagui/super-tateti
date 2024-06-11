@@ -1,10 +1,10 @@
 function jugar(cuadrado){
     var id = cuadrado.id;
-    let queBotonEl = document.getElementById("id");
-    if ( queBotonEl.innerText == "_"){
+    let queBotonEl = document.getElementById(id);
+    if ( queBotonEl.innerText == ""){
         queBotonEl.innerText = "X"
     } else if ( queBotonEl.innerText == "X"){
-        queBotonEl.innerText = "o"
+        queBotonEl.innerText = "O"
     } else {
         queBotonEl.innerText = "X"
     }
