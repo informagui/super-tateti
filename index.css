@@ -1,6 +1,6 @@
 
 .contenedor{
-    background: #012001;
+    background: #ffffff;
     margin: 0 auto;
     position: relative;
     height: 80%;
@@ -15,10 +15,11 @@ th, td {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 300px;
+    width: max-content;
     height: max-content;
     text-align: center;
     padding: 15px;
+    border: 1px solid #000;
   }
   table {
     width: 100%;
@@ -30,10 +31,11 @@ th, td {
     color: rgba(40, 216, 63, 0.397);
     font-weight: bold;
     width: 200px;
+    height: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
     font-size: 16px;
-    background-color: beige;
+    background-color: #ffffff;
 }
 
 button:hover {
