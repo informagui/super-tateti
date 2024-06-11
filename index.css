@@ -1,0 +1,38 @@
+
+.contenedor{
+    background: #d7f5d7;
+    margin: 20px auto;
+    position: absolute;
+    height: 450px;
+    width: 450px;
+}
+th, td {
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: max-content;
+    text-align: center;
+    padding: 15px;
+  }
+  table {
+    width: 100%;
+  }
+  button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(40, 216, 63, 0.397);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: beige;
+}
+
+button:hover {
+    box-shadow:0 4px 8px 0 rgba(40, 216, 63, 0.397), 0 6px 20px 0 rgba(40, 216, 63, 0.397);
+}
