@@ -1,4 +1,7 @@
 
+body{
+  background-color: darkgreen;
+}
 .contenedor{
     background: #ffffff;
     margin: 0 auto;
@@ -24,18 +27,28 @@ th, td {
   table {
     width: 100%;
     border-collapse: collapse ;
+    border: none;
+  }
+  div table div{
+    background: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
   }
   button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: rgba(40, 216, 63, 0.397);
     font-weight: bold;
-    width: 200px;
-    height: 200px;
+    width:40px;
+    height: 40px;
     margin-bottom: 5px;
-    border-radius: 5px;
-    font-size: 100px;
+    font-size: 40px;
     background-color: #ffffff;
 }
 
