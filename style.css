@@ -1,0 +1,24 @@
+.contenedor{
+    background: #16ff16;
+    border: 10px solid #008000;
+    margin: 20px auto;
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+.contenido{
+    background: #16ff16;
+    border: 10px solid #008000;
+    margin: 20px auto;
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+#t11{
+    background: #008000;
+}
