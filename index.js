@@ -14,9 +14,7 @@ function jugar(cuadrado){
             turn = "X"
             queBotonEl.innerText = "X"
         }
-        var div  = document.getElementById(proximoCuadrante)
-        var table = div.getElementsByTagName('table')[0];
-        table.style.backgroundColor = 'lightblue'
+        document.getElementById(proximoCuadrante).style.backgroundColor = blue;
         return id;
     }
 }
