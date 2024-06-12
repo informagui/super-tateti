@@ -11,6 +11,7 @@ body{
     padding: 20px;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box; 
 }
 th, td {
     top:0;
@@ -54,4 +55,22 @@ th, td {
 
 button:hover {
     box-shadow:0 4px 8px 0 rgba(40, 216, 63, 0.397), 0 6px 20px 0 rgba(40, 216, 63, 0.397);
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    .contenedor {
+        width: 95%; /* Ajusta el ancho para dispositivos muy pequeños */
+        padding: 10px; /* Reduce el padding */
+    }
+
+    th, td {
+        padding: 5px; /* Reduce el padding para celdas en pantallas pequeñas */
+    }
+
+    button {
+        width: 30px; /* Ajusta el tamaño de los botones */
+        height: 30px;
+        font-size: 30px; /* Ajusta el tamaño de la fuente de los botones */
+    }
 }
