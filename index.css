@@ -56,6 +56,10 @@ th, td {
     justify-content: center;
     align-items: center;
   }
+  .pedo{
+    color: black;
+    font-size: 5px;
+  }
   button {
     border: none;
     padding-top: 0px;
