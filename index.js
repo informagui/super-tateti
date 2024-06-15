@@ -3,11 +3,8 @@ let p1 = "X";
 let p2 = "O";
 let proximoCuadrante;
 function jugadores(){
-    let x = document.getElementById("seleccion")
-    p1 = x.elements[0].value
-    p2 = x.elements[1].value
-    let textoEl = document.getElementById("texto")
-    textoEl.innerText = p1 + p2
+    p1 = document.getElementById("fplayer").value
+    p2 = document.getElementById("splayer").value
 }
 function jugar(cuadrado){
     var id = cuadranteActual(cuadrado);
