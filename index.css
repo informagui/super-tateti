@@ -58,7 +58,12 @@ th, td {
   }
   .pedo{
     color: black;
-    font-size: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .pedo :hover{
+    color:rgb(118, 116, 116) !important;
+    box-shadow: none !important;
   }
   button {
     border: none;

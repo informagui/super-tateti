@@ -33,10 +33,14 @@ function cuadranteActual( cuadrante){
     proximoCuadrante = charArray[0] + charArray[1] + charArray[2];
     return id 
 }
-function resetear(){
+function resetear(){    
         document.getElementById("fplayer").value = ""
         document.getElementById("splayer").value = ""
         p1 = "X"
         p2 = "O"
         document.getElementById("contenedor").reset()
+}
+
+function refreshPage() {
+    location.reload();
 }
